@@ -13,6 +13,10 @@ export const deleteTodo = (id) => ({
   id,
 });
 
+export const resetList = () => ({
+  type: "RESET_LIST",
+});
+
 export const toggleTodo = (id) => ({
   type: "TOGGLE_TODO",
   id,
