@@ -1,6 +1,6 @@
 import React from "react";
 
-const Todo = () => {
+const Todo = ({ onClick, completed, text, deleteTodo }) => {
   return <li></li>;
 };
 
