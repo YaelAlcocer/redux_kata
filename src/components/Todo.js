@@ -8,6 +8,7 @@ const Todo = ({ onClick, completed, text, deleteTodo }) => (
   >
     {text}
     <input type="checkbox" onClick={onClick} />
+    <button onClick={deleteTodo}>Delete</button>
   </li>
 );
 
