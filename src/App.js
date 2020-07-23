@@ -3,6 +3,7 @@ import "./App.css";
 
 import AddTodo from "./containers/AddTodo";
 import VisibleTodoList from "./containers/VisibleTodoList";
+import Options from "./components/Options";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <h1>Redux Kata</h1>
         <AddTodo />
         <VisibleTodoList />
+        <Options />
       </header>
     </div>
   );
